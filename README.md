@@ -9,3 +9,7 @@ Linting - Using flake8 for linting with docker-compose command:
 
 Testing - Test with docker-compose command:
     docker-compose run --rm app sh -c "python manage.py test"
+
+Dev Server - Start dev server with docker-compose command:
+    docker-compose up
+    Then access server at 127.0.0.1:8000
